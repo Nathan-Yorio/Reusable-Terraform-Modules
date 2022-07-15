@@ -4,7 +4,9 @@ Some premade terraform modules that can have variables passed to re-provision in
 ## Usage Instructions
 In order to pass variables into the main script's modules variables need to be passed with:
 
-`terraform init`
+```sh
+terraform init
+```
 
 
 `terraform fmt`
