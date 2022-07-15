@@ -1,6 +1,4 @@
-
-Inline-style: 
-![SpinningGem](https://github.com/waitforit/terraform.gif "Welcome to the future")
+![SpinningGem](https://github.com/Nathan-Yorio/Reusable-Terraform-Modules/tree/main/resources/img/terraform.gif "Welcome to the future")
 
 # Reusable Terraform Modules
 Some premade terraform modules that can have variables passed to re-provision infrastructure elsewhere
