@@ -4,7 +4,7 @@ Some premade terraform modules that can have variables passed to re-provision in
 ## Module Explanations
 
 ### Route 53
-#### create-new-domain-record
+#### __create-new-domain-record__
 - creates a new subdomain record based on the specified variable
 - allocates new subdomain record to a pre-defined application load balancer also with an included variable
 
