@@ -8,17 +8,22 @@ In order to pass variables into the main script's modules variables need to be p
 terraform init
 ```
 
+```sh
+terraform fmt
+```
 
-`terraform fmt`
+```sh
+terraform validate
+```
 
-
-`terraform validate`
-
-
-`terraform plan`
+```sh
+terraform plan
+```
 
 And finally
-`terraform apply -var-file="WhateverTheNameIs.tfvars"`
+```sh
+terraform apply -var-file="WhateverTheNameIs.tfvars"
+```
 
 ## Update with new modules going forward
 - All new modules need to have their variables replicated in `var-main.tf`, but each module has those variables as well at the module level
