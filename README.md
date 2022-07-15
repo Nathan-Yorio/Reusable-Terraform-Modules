@@ -1,6 +1,13 @@
 # Reusable Terraform Modules
 Some premade terraform modules that can have variables passed to re-provision infrastructure elsewhere
 
+## Module Explanations
+
+### Route 53
+#### create-new-domain-record
+- creates a new subdomain record based on the specified variable
+- allocates new subdomain record to a pre-defined application load balancer also with an included variable
+
 ## Usage Instructions
 In order to pass variables into the main script's modules variables need to be passed with:
 
