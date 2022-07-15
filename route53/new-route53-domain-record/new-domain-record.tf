@@ -9,12 +9,6 @@ terraform {
   required_version = ">= 0.14.9"
 }
 
-/* provider "aws" {
-  profile = "default"
-  #Region not needed for Route 53, which is global
-  region  = "us-west-2"
-}
- */
 # Docs on this piece
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/route53_zone
 
