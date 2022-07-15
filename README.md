@@ -1,5 +1,3 @@
-![SpinningGem]( | width=200)
-
 <img src="https://github.com/Nathan-Yorio/Reusable-Terraform-Modules/blob/c78e11e8a32f4e362850088528543de1280bd5aa/resources/img/terraform.gif" width="200" height="200" />
 
 # Reusable Terraform Modules
