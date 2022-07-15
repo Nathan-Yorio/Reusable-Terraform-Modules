@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/Nathan-Yorio/Reusable-Terraform-Modules/blob/c78e11e8a32f4e362850088528543de1280bd5aa/resources/img/terraform.gif" width="150" height="150" />
+<img src="https://github.com/Nathan-Yorio/Reusable-Terraform-Modules/blob/c78e11e8a32f4e362850088528543de1280bd5aa/resources/img/terraform.gif" width="100" height="100" />
 </p>
 
 # Reusable Terraform Modules
@@ -13,7 +13,7 @@ Some premade terraform modules that can have variables passed to re-provision in
 - allocates new subdomain record to a pre-defined application load balancer also with an included variable
 
 ## Usage Instructions
-In order to pass variables into the main script's modules variables need to be passed with:
+Standard terraform test and run commands
 
 ```sh
 terraform init
@@ -31,7 +31,7 @@ terraform validate
 terraform plan
 ```
 
-And finally
+In order to pass variables into the main script's modules variables need to be passed with:
 ```sh
 terraform apply -var-file="WhateverTheNameIs.tfvars"
 ```
